@@ -1,0 +1,28 @@
+@import "/src/styles/extend";
+
+$circle-avatar-multipliers: (
+    (xl, 0.9),
+    (lg, 0.75),
+    (md, 0.6),
+    (sm, 0.45),
+);
+
+.circle-avatar {
+    margin: 0 auto;
+    
+    overflow: hidden;
+    
+    user-select: none;
+    pointer-events: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .image-view-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+}
+
